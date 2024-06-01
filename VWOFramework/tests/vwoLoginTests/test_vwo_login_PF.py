@@ -5,7 +5,7 @@ import pytest
 from selenium import webdriver
 from tests.pageObjects.loginPage_PF import LoginPage
 from allure_commons.types import AttachmentType
-from dotenv import load_dotenv
+from dotenv import load_dotenvii
 
 @allure.epic("VWO App")
 @allure.feature("Login Test")
