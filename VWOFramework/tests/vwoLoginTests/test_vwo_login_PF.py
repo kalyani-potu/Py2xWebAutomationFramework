@@ -5,12 +5,12 @@ import pytest
 from selenium import webdriver
 from tests.pageObjects.loginPage_PF import LoginPage
 from allure_commons.types import AttachmentType
-from dotenv import load_dotenvii
+#from dotenv import load_dotenv
 
 @allure.epic("VWO App")
 @allure.feature("Login Test")
 class TestVWOLogin:
-    load_dotenv()
+    #load_dotenv()
     @pytest.mark.usefixtures("setup")
     @pytest.mark.qa
     def test_vwologin_negative(self,setup):
